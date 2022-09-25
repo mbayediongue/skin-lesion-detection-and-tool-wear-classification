@@ -1,9 +1,10 @@
-# skin-lesion-detection-and-tool-wear-classification
+# skin-lesion-detection-from-segmented-images-and-superpixels
 
-This work 
 This work uses the database of the ISIC Challenge 2017: [Skin Lesion Analysis Towards Melanoma Detection](https://ieeexplore.ieee.org/document/8993219) [1].
 
-It focuses on the third and fourth parts of the challenge (feature extraction and disease classification). Considering that we already have the segmented images and the superpixels of the original images.
+
+It focuses on the third and fourth parts of the challenge (feature extraction and disease classification). Considering that we already have the segmented images and the superpixels of the original images. The main challenge is the small size of the data set (only 200 images). The proposed solution did not use directly the images but used morphological, intensity and texture descriptors extracted from the images to build a SVM classifier.
+
 
 Here is a [link](https://drive.google.com/drive/folders/1vFrGFBBJygRIfYiHEQeuzUlyBJDm8MO-?usp=sharing) to directly download the database containing images (original images, superpixels and segmendted images) from Google Drive.
 
